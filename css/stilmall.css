@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+	background:url(../img/bakgrund.png); 
+	background-repeat: no-repeat;
+	background-size:100%;
+	font-family:"Lucida Sans",Arial,Helvetica,sans-serif;
+	
+}
+
+	#wrapper{
+		width:920px;
+		margin: 40px auto;
+	}
+	
+	#header {
+		height: 200px;
+		width: 920px; 
+		margin-bottom: 5px;
+		
+	}
+	
+	#headerCenterBox {
+    	height: 310px;
+		padding:30px;
+    	width: 920px;
+	}
+	#header .logo{
+	background-image:url(../img/Sar2a.png);
+	/*background-repeat:no-repeat;*/
+  	height: 140px;
+  /*  left: 249px;
+    */overflow: hidden;
+  /*  position: absolute;*/
+    text-indent: 528px;
+   /* top: 100px;*/
+   white-space: nowrap;
+    width: 520px;
+	}
+	
+	#header .headlineText {
+    color: #666666;
+    height: 70px;
+  	left: 229px;
+	margin-left:40px;
+    line-height: 1.5em;
+    text-shadow: 0 1px 0 #FFFFFF;
+    top: 158px;
+    width: 455px;
+	}
+	
+	#header .profilePicture {
+	background-image:url(../img/mini.png);
+	background-position:initial initial;
+	/* background-repeat:no-repeat no-repeat;*/
+	
+	height:188px;
+	width:150px;
+	position:absolute;
+	float:right;
+	margin-left:655px;
+	top:50px;
+	  
+	}
+	
+	#content {
+  	overflow:hidden;
+ 	position:relative;
+	background-color:#5BC3EF; /* 5BC3EF */
+	box-shadow:4px 4px 5px #888888;
+	top:10px;
+	}
+	
+	#content .threeColumns .column {
+	  color:#FFFFFF;
+	  float:left;
+	  height:300px;
+	  line-height:1.4em;
+	  font-size:14px;
+	  margin:0 0 0 45px;
+	  padding-top:50px;
+	  text-shadow:gray 0 -0.5px 0; /*#4FB2E*/
+	  width:239px;
+	}
+	
+	#content .threeColumns .firstColumn {
+  		/*background-color: blue;*/
+		background-position:100%;
+		
+	}
+	#content .threeColumns .secondColumn {
+ 		background-position:100%;
+	}
+
+	#content .threeColumns .thirdColumn {
+		background-position:100%;
+		margin-right:50px;
+	}
+	
+	h2.about {
+		background-image:url(../img/om2.png);
+		background-position:left;
+		background-repeat:no-repeat no-repeat;
+  
+}
+
+	h2.skills {
+		background-image:url(../img/vad-jag-kan.png);
+		background-position:initial initial;
+		background-repeat:no-repeat no-repeat;
+		margin-left:-12px;
+}
+
+	h2.annat {
+	  background-image:url(../img/annat.png);
+	  background-position:initial initial;
+	  background-repeat:no-repeat no-repeat;
+	  margin-left:-13px;
+	}
+
+h2 {
+  height:60px;
+  margin:-18px 0 25px -10px;
+  overflow:hidden;
+  text-indent:28px;
+  white-space:nowrap;
+  
+}
+
+	#footer{	
+		/*padding-left: 350px;*/
+		padding-top: 15px;
+		margin:20px;
+		font-style: italic;
+		height:20px; 
+		clear:both;
+		/*color: #666666;
+		text-shadow: 0 1px 0 #FFFFFF; */
+		font-size:0px;
+		
+	}
+	
